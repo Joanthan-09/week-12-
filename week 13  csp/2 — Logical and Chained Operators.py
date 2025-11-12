@@ -22,24 +22,16 @@ print(1 < x < 20)         # True
 score = int(input("Enter your score (0-100): "))
 # if score is between 90 & 100
 # assign grade A
-if 90 <= score >=100:
+if score >= 90 and score <= 100:
     print("Grade: A")
-#if score is between 80 & 89
-# Assign grade b
-elif 80<= score >= 90:
+elif score >= 80 and score < 90:
     print("Grade: B")
-# if socre is between 70 & 79
-# assign grade C
-elif 70<= score >= 80:
-    print("Grade: C ")
-#if score is between 60 & 69
-#assign Grade D
-elif 60<= score >= 70:
-    print("Grade: C ")
-# if score is below 60
-#Assign Grade F
-else:
-    print("Grade: F ")
+elif score >= 70 and score < 80:
+    print("Grade: C")
+if score >= 60 and score < 70:
+    print("Grade: D")
+elif score < 60:
+    print("Grade: F")  
 
 
 
