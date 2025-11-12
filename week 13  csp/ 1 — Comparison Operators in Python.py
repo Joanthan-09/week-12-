@@ -13,12 +13,12 @@
 a = 3
 b = 4
 
-# print(a == b)   # False
-# print(a != b)   # True
-# print(a > b)    # False
-# print(a < b)    # True
-# print(a >= b)   # False
-# print(a <= b)   # True
+print(a == b)   # False
+print(a != b)   # True
+print(a > b)    # False
+print(a < b)    # True
+print(a >= b)   # False
+print(a <= b)   # True
 
 
 #predict the output of the following comparisons:
